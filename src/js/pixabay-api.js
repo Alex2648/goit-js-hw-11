@@ -2,7 +2,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 const loader = document.querySelector('.loader');
-const KEY = '42549902-185aac32f1223c9241b6c0bc7';
+const KEY = '42824124-ce8ae3b73b3abf1692b179272';
 const BASE_URI = 'https://pixabay.com/api/';
 
 export function getImages(QUERY) {
