@@ -8,7 +8,7 @@ const BASE_URI = 'https://pixabay.com/api/';
 export function getImages(query) {
   loader.style.display = 'flex';
   const LINK = `${BASE_URI}?key=${KEY}&q=${QUERY}&image_type=photo&orientation=horizontal&safesearch=true`;
-
+  loader.style.display = 'block';
   return fetch(LINK)
     .then(response => {
       if (!response.ok) {
