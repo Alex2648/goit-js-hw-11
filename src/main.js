@@ -26,7 +26,7 @@ const form = document.querySelector('form');
 form.addEventListener('submit', event => {
   event.preventDefault();
   gallery.innerHTML = '';
-  const QUERY = event.target.elements.serchfield.value.trim();
+  const QUERY = event.target.elements.searchfield.value.trim();
   if (QUERY.length > 0) {
     getImages(QUERY).then(data => renderData(data));
     form.reset();
