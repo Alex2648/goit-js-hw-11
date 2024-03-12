@@ -5,7 +5,7 @@ const loader = document.querySelector('.loader');
 const KEY = '42824124-ce8ae3b73b3abf1692b179272';
 const BASE_URI = 'https://pixabay.com/api/';
 
-export function getImages(QUERY) {
+export function getImages(query) {
   loader.style.display = 'flex';
   const LINK = `${BASE_URI}?key=${KEY}&q=${QUERY}&image_type=photo&orientation=horizontal&safesearch=true`;
 
