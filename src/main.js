@@ -1,7 +1,7 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { getImages } from './js/pixabay-api';
-import { renderData } from './js/render-functions';
+import { searchImages } from './js/pixabay-api';
+import { createMarkup } from './js/render-functions';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
