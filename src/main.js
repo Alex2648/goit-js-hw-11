@@ -22,6 +22,8 @@ export const lightbox = new SimpleLightbox('.gallery a', {
 });
 
 const form = document.querySelector('form');
+const gallery = document.querySelector('.gallery');
+const loader = document.querySelector('.loader');
 
 form.addEventListener('submit', event => {
   event.preventDefault();
